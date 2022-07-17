@@ -1,7 +1,7 @@
 # README - OIG02 - Access Requests Syslog Reporting
 This file provides some basic information for this sample set of workflows.
 
-** *This is sample code only, and not officially suported by Okta* **
+** *This is sample code only, and not officially supported by Okta* **
 
 ## Pre-reqs
 Prior to using these flows you will need the following
