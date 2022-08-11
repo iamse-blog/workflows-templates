@@ -1,0 +1,4 @@
+rowId,system.updated,name,value,description
+d2f29e90-531f-11ec-8d16-7070bd770d73,1643265625412,slack_signing_secret,<your slack signing secret>,Used to validate the request
+c9f4c3e0-5252-11ec-a316-62a14db65c3a,1642998573939,device_icon,https://cdn-icons-png.flaticon.com/512/80/80761.png,Used as part of the Slack popup
+b7005e90-4760-11ec-adda-6400069e02e2,1643265581000,domain,<your org>.okta.com,Domain - without 'https://' or '-admin'. E.g. - 'atko.okta.com'
