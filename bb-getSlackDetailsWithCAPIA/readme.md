@@ -39,10 +39,14 @@ Now you can use a pair of [Object - Get Multiple](https://help.okta.com/wf/en-us
 * I've used `Okta - User Added to Group` for sake of example. You can substitute this to meet your needs. Just make sure to use the `Slack - Read User` to get the Slack User ID needed for the query object. 
 * If you zoom in on my flow, you'll also notice that I built some error handling into my flow by putting my Custom API calls within an "If Error" card and building outputs in the case of a success as well as a failure. It's never a bad idea to build some error handling into your flows to make them more robust. 
 
-Feel free to download this example and import it to your environment: {% embed https://gist.github.com/bbarrows89/9f8d918f395ee5c8cfefc77ab890b8ed.js %} **_Download steps:_** 
-* _right click "view raw" in the panel above on the right_ 
+Feel free to [download](https://github.com/bbarrows89/oktaworkflows/blob/main/guides/getSlackUserStatus/getSlackUserDetailsAndStatus.flow) this example and import it to your environment.
+
+**_Download steps:_** 
+* _right click "view raw"_ 
 * _click "Save Link As"_
-* _be sure the filename ends in `.flow`_
+* _be sure the filename ends in `.flow` !_
+
+_Read more about how to import and export flows [here](https://help.okta.com/wf/en-us/Content/Topics/Workflows/build/export-import-flows.htm)._ 
 
 ---
 
