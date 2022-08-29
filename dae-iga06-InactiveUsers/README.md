@@ -9,7 +9,7 @@ Prior to using these flows you will need the following
 - A folder for these flows and table
 - An Okta connector configured
 - Optionally a GDrive and email connector configured 
-- The `okta.logs.read` scope granted for the Okta Workflows OAuth app in Okta
+- The `okta.logs.read` scope granted for the Okta Workflows OAuth app in Okta. In Okta Workflows, go to connectors and reauthorize.
 
 ## Installation
 Select the folder you want to install the table/flows into and Import the .folder file. Activate the flows.
