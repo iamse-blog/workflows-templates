@@ -1,0 +1,5 @@
+rowId,system.updated,name,value
+a238f840-2992-11ed-9e8e-3dba002fc797,1.66199E+12,page_size,10
+88e7ad20-240e-11ed-9e02-572135d229ee,1.66139E+12,client_id,Update with Azure App Client Id
+88e56330-240e-11ed-9991-a1ef59f28e1c,1.66139E+12,tenant_id,Update with Azure Tenant Id
+88e56331-240e-11ed-8202-3da3b0bfaf7c,1.66139E+12,client_secret,Update with Azure App Client Secret
