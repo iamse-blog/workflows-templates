@@ -1,0 +1,6 @@
+rowId,system.updated,name,value
+e918c820-37e4-11ed-bacc-7c9d95f7071d,1663741216869,okta_group_id,< Replace with Okta Group ID >
+8294bee0-33ef-11ed-b331-e2c36b4c5ee2,1663741232510,role_id,< Replace with Auth0 Role ID >
+d07154a0-33ec-11ed-aaf0-6be7592174c4,1663741251586,domain,< Replace with Auth0 Domain Name >
+d0701c21-33ec-11ed-a07c-76c131245577,1663741279104,client_id,< Replace with Auth0 Appplication Client ID >
+d0701c20-33ec-11ed-b3c5-4ac2991f5f43,1663741288880,client_secret,< Replace with Auth0 Appplication Client Secret >
