@@ -12,6 +12,7 @@ In this scenario, it's likely that Okta Workflows will be calling the [![](https
 Within your Auth0 management console, go to Applications and create a new application of type Machine to Machine. You will need to authorize this application to perform the required tasks, so the token will be generated with the necessary scopes. If this is not correct, any request using the token will receive a 401 - Unauthorized.
 
 Here is an example:
+
 ![enter image description here](https://i0.wp.com/iamse.blog/wp-content/uploads/2022/10/image.png?w=559&ssl=1)
 
 The resulting token will include the following:
@@ -27,6 +28,7 @@ Take note of the following values once created.
 3.  Client Secret
 
 EG:
+
 ![enter image description here](https://i0.wp.com/iamse.blog/wp-content/uploads/2022/10/image-1.png?w=532&ssl=1)
 
 These values will be required as input to the following helper flow.
@@ -42,14 +44,19 @@ Here is an explanation of the helper flow.
 2.  Using the passed Domain, the flow manufactures the token endpoint URL. This is the endpoint that the flow will be calling to generate a token.
     
 3.  Using the passed Domain, the flow manufactures the audience. This will be used in the JSON payload.
+
     ![enter image description here](https://i0.wp.com/iamse.blog/wp-content/uploads/2022/10/image-4.png?resize=1024,583&ssl=1)
 4. Using the passed Client Id, Client Secret, manufactured Audience and a grant type of _client_credentials_, the flow then creates a JSON object. This will be the payload in the request.
 
 5. The flow creates a header object with a Content-Type of _application/json_.
+
 ![enter image description here](https://i0.wp.com/iamse.blog/wp-content/uploads/2022/10/image-5.png?resize=768,747&ssl=1)
 6. Now the flow does a HTTP Post to the token endpoint with the JSON payload.
+
 ![enter image description here](https://i0.wp.com/iamse.blog/wp-content/uploads/2022/10/image-6.png?w=269&ssl=1)
 7. The flow then checks the returned status code from the call. If it's a 200, then the flow extracts the access token from the response. If a 200 is not returned, then the flow will return an error response.
+
 ![enter image description here](https://i0.wp.com/iamse.blog/wp-content/uploads/2022/10/image-7.png?resize=768,788&ssl=1)
 8. Finally the helper flow returns the token to the calling workflow.
+
 ![enter image description here](https://i0.wp.com/iamse.blog/wp-content/uploads/2022/10/image-8.png?resize=259,300&ssl=1)
