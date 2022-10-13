@@ -46,17 +46,21 @@ Here is an explanation of the helper flow.
 3.  Using the passed Domain, the flow manufactures the audience. This will be used in the JSON payload.
 
     ![enter image description here](https://i0.wp.com/iamse.blog/wp-content/uploads/2022/10/image-4.png?resize=1024,583&ssl=1)
+    
 4. Using the passed Client Id, Client Secret, manufactured Audience and a grant type of _client_credentials_, the flow then creates a JSON object. This will be the payload in the request.
 
 5. The flow creates a header object with a Content-Type of _application/json_.
 
 ![enter image description here](https://i0.wp.com/iamse.blog/wp-content/uploads/2022/10/image-5.png?resize=768,747&ssl=1)
+
 6. Now the flow does a HTTP Post to the token endpoint with the JSON payload.
 
 ![enter image description here](https://i0.wp.com/iamse.blog/wp-content/uploads/2022/10/image-6.png?w=269&ssl=1)
+
 7. The flow then checks the returned status code from the call. If it's a 200, then the flow extracts the access token from the response. If a 200 is not returned, then the flow will return an error response.
 
 ![enter image description here](https://i0.wp.com/iamse.blog/wp-content/uploads/2022/10/image-7.png?resize=768,788&ssl=1)
+
 8. Finally the helper flow returns the token to the calling workflow.
 
 ![enter image description here](https://i0.wp.com/iamse.blog/wp-content/uploads/2022/10/image-8.png?resize=259,300&ssl=1)
