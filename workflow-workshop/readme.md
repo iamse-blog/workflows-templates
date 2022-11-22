@@ -10,8 +10,4 @@ wf-icebreaker-apac-alt-1@atko.email
 
 wf-icebreaker-apac-alt-2@atko.email
 
-Crdentials
 
-Username: oktaadmin@atko.email
-
-Password: P@$$w0rd123
