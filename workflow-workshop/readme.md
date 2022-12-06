@@ -1,6 +1,8 @@
 Okta Workflows Icebreaker Workshop
 
-Service endpoint: http://petstore-demo-endpoint.execute-api.com/petstore/pets 
+Leaver Flow service endpoint: http://petstore-demo-endpoint.execute-api.com/petstore/pets 
+
+Slack instance: wf-icebreaker-apac
 
 Slack Users:
 
