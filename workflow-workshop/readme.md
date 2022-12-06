@@ -9,6 +9,10 @@ Leaver Flow service endpoint: http://petstore-demo-endpoint.execute-api.com/pets
 4. https://workflow-workshop-apac4.okta.com
 5. https://workflow-workshop-apac5.okta.com
 
+Username: oktaadmin@atko.email
+Password: P@$$w0rd123
+
+
 ## Slack Instance
 Slack instance id: wf-icebreaker-apac
 
