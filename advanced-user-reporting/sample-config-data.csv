@@ -1,0 +1,5 @@
+rowId,system.updated,name,value,description
+56bef5f0-eeda-11ed-a7f5-c44fb91f099b,1683685733411,timezone,Australia/Sydney,Timezone for Date/Time display
+a823ce40-e014-11ed-b639-f26c6f21840a,1683690659382,recipients,mark.smith@acme.com,The email recipients. Comma delimited string.
+9ea589d0-e014-11ed-a6f3-7abd588f5f63,1683676537899,logo,https://1000logos.net/wp-content/uploads/2023/01/Okta-logo.png,The logo on the email
+90a45550-e014-11ed-85d3-cc30b47db70e,1683690667320,org,acme.okta.com,The org the report is running the report on
