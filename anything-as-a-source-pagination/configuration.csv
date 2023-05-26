@@ -1,6 +1,6 @@
 rowId,system.updated,name,value,description
-70b243b0-f90f-11ed-9d96-be83249aa7ee,1684890162936,domain,oktaapac.onmicrosoft.com,The Azure AD Domain that the users will be uploaded into
-2bfa6210-f46f-11ed-8aff-ac55e9826da3,1684890187032,client_id,001ec10b-c78a-45dd-996f-ca61124a90d5,Azure Client Id
-2bfa13f0-f46f-11ed-8630-76a20d74d3ac,1684980196314,page_size,200,The page size of each bulk upload into Okta. Max 200.
-2bf81821-f46f-11ed-94c6-c4a3130f5840,1684890219729,tenant_id,0f5a0510-2623-490d-a97a-0451b367f24e,Azure Tenant Id
-2bf81820-f46f-11ed-bc36-52c8b71f3ab1,1684890176611,client_secret,LbG8Q~LJEJrErUvNA33P5VKBM-lXSEraanuEjbCD,Azure Client Secret
+70b243b0-f90f-11ed-9d96-be83249aa7ee,1.68489E+12,domain,,The Azure AD Domain that the users will be uploaded into
+2bfa6210-f46f-11ed-8aff-ac55e9826da3,1.68489E+12,client_id,,Azure Client Id
+2bfa13f0-f46f-11ed-8630-76a20d74d3ac,1.68498E+12,page_size,200,The page size of each bulk upload into Okta. Max 200.
+2bf81821-f46f-11ed-94c6-c4a3130f5840,1.68489E+12,tenant_id,,Azure Tenant Id
+2bf81820-f46f-11ed-bc36-52c8b71f3ab1,1.68489E+12,client_secret,,Azure Client Secret
