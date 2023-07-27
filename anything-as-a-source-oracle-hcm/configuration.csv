@@ -1,0 +1,7 @@
+rowId,system.updated,name,value,description
+7daecb60-2b41-11ee-9c81-6c7a8dbc1e9a,1690336521246,created_days,100,How many days in the past should we check for user creations
+cce56360-2ab0-11ee-adda-29a26b51577f,1690327087049,deactivated_days,5,How many days in the past should we check for user deactivations
+b0ac59d0-2a8b-11ee-9cb2-71737e580fe9,1690351305953,batch_size,10,The total number of imports within a single transaction Id. Max 50.
+9311e6c0-278d-11ee-ae57-1021041a91cb,1690265034247,hcm_url,https://<instance>.oraclecloud.com/hcmRestApi/resources/<identifier>,HCM Instance URL
+6c257450-278d-11ee-86bc-7f16550853a8,1689919942402,time_zone,US/Pacific,Local Timezone as per https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+97e46860-26c7-11ee-a57d-56afa7fe50ca,1690265011443,page_size,200,The page size of each bulk upload into Okta. Max 200.

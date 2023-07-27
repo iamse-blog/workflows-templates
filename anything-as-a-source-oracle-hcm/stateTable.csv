@@ -1,0 +1,3 @@
+rowId,system.updated,name,value,description
+a19f0430-29d5-11ee-a38c-05e6dab83708,1690423644347,batch_running,false,"Either true or false. If a batch is currently running, then a new scheduled flow can not start."
+a7d84c40-29d4-11ee-9960-eec0ec2c626d,1690423341804,batch_request_no,2,The current count of the batch requests
