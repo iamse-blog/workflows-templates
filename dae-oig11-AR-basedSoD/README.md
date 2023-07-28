@@ -5,14 +5,14 @@ This file provides some basic information for this sample set of workflows.
 
 ## Pre-reqs
 Prior to using these flows you will need the following
-- Workflows:
--- Okta Workflows configured for your environment
--- A folder for these flows and table
--- An Okta connector configured
-- OIG:
--- Okta Identity Governance (OIG) with Access Requests enabled and working
--- Workflows OAuth app has the okta.governance.accessRequests.manage scope granted
--- ATSPOKE_WORKFLOWS feature flag enabled
+1. Workflows:
+- Okta Workflows configured for your environment
+- A folder for these flows and table
+- An Okta connector configured
+2. OIG:
+- Okta Identity Governance (OIG) with Access Requests enabled and working
+- Workflows OAuth app has the okta.governance.accessRequests.manage scope granted
+- ATSPOKE_WORKFLOWS feature flag enabled
 
 ## Installation
 Select the folder you want to install the tables/flows into and Import the .folder file. Activate the flows. Due to the new mapping requirement, you may want to enable the flows in reverse alphabetical order (sub flows then main flows).
@@ -32,7 +32,7 @@ The table **Resource Type Entitlements** contains the mapping of Access Request 
 You will need to define one or more SoD policies in the **SoD Policies** table. It contains an id (not used), name, description, scope (# allowed before violation), entitlements (in the same X:name format) and severity. An example is included in this folder.
 
 ### Assign Worflow to an Access Request
-To use the D** flows from an Access Request, you must assign the workflow to the Request Type. If unsure of how to do this, see https://iamse.blog/2023/07/20/oig-access-requests-posting-additional-information-into-a-request/. The workflow to include is D00 - Update Request with User Data (AR-called). It requires the user email, entitlementId and requestSubject to be passed from the Access Request.
+To use the D** flows from an Access Request, you must assign the workflow to the Request Type. If unsure of how to do this, see [OIG Access Requests – Calling an Okta Workflow from Within a Request Type](https://iamse.blog/2023/07/17/oig-access-requests-calling-an-okta-wokflow-from-within-a-request-type/). The workflow to include is **D00 - Update Request with User Data (AR-called)**. It requires the user email, entitlementId and requestSubject to be passed from the Access Request.
 
 ### Define Request Types for E** Flows
 The E** flows are triggered off the access.request.create event. There is no filtered hooks for this event yet, so every event from every access request will trigger this workflow. The E00 flow has a Continue If card that contains a list of flows to do the SoD checking for. Update that list (value b in the card)
