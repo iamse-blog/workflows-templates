@@ -2,7 +2,12 @@
 
 Workshop Instructions: https://wic1.auth.camp/
 
+Okta Tenants: http://wf-icebreaker-apac#.okta.com
+
+Replace the # with your assigned number.
+
 Okta Admin User: oktaadmin@atko.email
+
 Password:
 
 
