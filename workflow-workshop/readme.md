@@ -8,7 +8,7 @@ Replace the # with your assigned number.
 
 Okta Admin User: oktaadmin@atko.email
 
-Password: P@$$w0rd123
+Password: 
 
 
 
