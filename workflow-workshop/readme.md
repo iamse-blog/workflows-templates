@@ -1,14 +1,17 @@
-# Workforce Identity Cloud hands-on workshop
+# Okta Identity Bootcamp: Workforce Identity Cloud hands-on workshop
 
-Workshop Instructions: https://wic1.auth.camp/
+Workshop Instructions: [https://wic1.auth.camp/](https://labs.demo.okta.com/)
 
-Okta Tenants: 
-
-Replace the # with your assigned number.
-
-Okta Admin User:
+## Test Users
+All test users have the same password.
 
 Password: 
+
+## Slack Account 
+Slack instance: wf-icebreaker-apac.slack.com
+Slack User: wf-icebreaker-apac-alt@atko.email
+Slack Password: 
+
 
 
 
