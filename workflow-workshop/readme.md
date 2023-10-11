@@ -3,22 +3,26 @@
 
 Workshop Instructions: [https://labs.demo.okta.com/](https://labs.demo.okta.com/)
 
+## Workshop Wifi
+Network: Guest Dnet
+Password: O6G@9[]P
+
 ## Test Users
 All test users in your Okta tenant have the same password.
->     Password: 
+>     Password: P@$$w0rd123
 
 ## Slack Account 
-Slack instance: wf-icebreaker-apac.slack.com
->     Slack User: wf-icebreaker-apac-alt@atko.email
->     Slack Password: 
+Slack instance: oktaworkflowmasters.slack.com
+>     Slack User: Your Email
+>     Slack Password: P@$$w0rd123
 
 ## Box Account
 Box instance: https://markokta.app.box.com
 >     Box User: workshop@oktaapac.com.au
->     Box Password: 
+>     Box Password: P@$$w0rd123
 
 ## Office 365 Mail Account
->     Office User: 
->     Office Password: 
+>     Office User: workshop.user@xwc7p.onmicrosoft.com
+>     Office Password: OktaWorkflows!
 
 
