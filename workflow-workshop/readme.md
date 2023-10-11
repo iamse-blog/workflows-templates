@@ -6,6 +6,8 @@ Workshop Instructions: [https://labs.demo.okta.com/](https://labs.demo.okta.com/
 ## Workshop Wifi
 Network: Guest Dnet
 Password: O6G@9[]P
+>     Network: Guest Dnet
+>     Password: O6G@9[]P
 
 ## Test Users
 All test users in your Okta tenant have the same password.
