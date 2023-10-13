@@ -8,7 +8,7 @@ All test users in your Okta tenant have the same password.
 >     Password: P@$$w0rd123
 
 ## Slack Account 
-Slack instance: 
+Slack instance: oktaworkflowmasters.slack.com
 >     Slack User: Your Email 
 >     Slack Password: P@$$w0rd123
 
