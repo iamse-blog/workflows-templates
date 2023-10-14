@@ -5,15 +5,15 @@ Workshop Instructions: [https://labs.demo.okta.com/](https://labs.demo.okta.com/
 
 ## Test Users
 All test users in your Okta tenant have the same password.
->     Password: P@$$w0rd123
+>     Password: 
 
 ## Slack Account 
-Slack instance: oktaworkflowmasters.slack.com
+Slack instance: 
 >     Slack User: Your Email 
->     Slack Password: P@$$w0rd123
+>     Slack Password: 
 
 ## Gmail Account
->     Gmail User: workflow.workshop@markcsmith.org
->     Gmail Password: P@$$w0rd123
+>     Gmail User: 
+>     Gmail Password: 
 
 
