@@ -9,12 +9,11 @@ All test users in your Okta tenant have the same password.
 
 ## Slack Account 
 Slack instance: 
->     Slack User: Your Email
+>     Slack User: Your Email 
 >     Slack Password: 
 
-
-## Office 365 Mail Account
->     Office User: 
->     Office Password: 
+## Gmail Account
+>     Gmail User: 
+>     Gmail Password: 
 
 
